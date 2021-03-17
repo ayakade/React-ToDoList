@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #414141;
+}
+
+.wrapper {
+    background: lightblue;
+    padding: 50px 0;
+}
+
+.container {
+    background: #fff;
+    width: 40%;
+    margin: 0 auto;
+    padding: 50px 0;
+    border-radius: 50px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.new {
+    width: 500px;
+    margin: 10px auto;
+    padding: 16px;
+    text-align: center;
+}
+
+.new h2 {
+    padding: 20px 0;
+    font-size: 140%;
+    text-align: center;
+}
+
+input[type="text"], select {
+	outline: none;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	padding: 10px;
+    color: #555;
+    border-radius: 10px;
+}
+
+button {
+	padding: 10px;
+    width: 150px;
+    border: none;
+    background-color: skyblue;
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+button:nth-child(2) {
+    background: none;
+    border: skyblue 1px solid;
+    color: skyblue;
+}
+
+button:nth-child(3) {
+    background: #ccc;
+}
+
+.lists {
+    margin: 0 auto;
+    text-align: left;
+    width: 500px;
+}
+
+.lists h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table {
+    margin: 0 auto; 
+}
+
+table tr th {
+    width: 100px;
+    padding-bottom: 10px;
+}
+
+table tr th:first-child {
+    width: 250px;
+}
+
+table tr th:nth-child(2) {
+    text-align: center;
+    width: 100px;
+}
+
+table tr th:nth-child(3) {
+    width: 80px;
+}
+
+table tr td {
+    margin-bottom: 30px;
+}
+
+table tr td:nth-child(2) {
+    font-size: 20px;
+    text-align: center;
+}
+
+table tr td .completed {
+    color: navy;
+}
+
+table tr td .pending {
+    color: #ccc;
+} 
+
+.edit {
+    background: lightblue; 
+    color: #fff;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.button {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
