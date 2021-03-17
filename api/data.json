@@ -1,0 +1,7 @@
+[
+    {"completed": false, "id": 1, "name": "Morning Tea"},
+    {"completed": false, "id": 2, "name": "Bath"},
+    {"completed": false, "id": 3, "name": "Coffee"},
+    {"completed": false, "id": 4, "name": "Workout"},
+    {"completed": false, "id": 5, "name": "Make a bed"}
+]
